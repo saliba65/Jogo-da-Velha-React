@@ -80,7 +80,9 @@ class Game extends React.Component {
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
+          <div>
+            <p>Jogo da velha, desenvolvido em react. Cada player joga no mesmo tabuleiro</p>
+          </div>
           <ol>{/* TODO */}</ol>
         </div>
       </div>
